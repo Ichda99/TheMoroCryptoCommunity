@@ -371,6 +371,72 @@ body {
     letter-spacing: 1px;
 }
 
+/* Admin Team Section */
+.admins {
+    padding: 100px 0;
+    background: #000000;
+}
+
+.admins-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.admin-card {
+    background: #ffffff;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #ffffff;
+}
+
+.admin-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+}
+
+.admin-avatar {
+    margin-bottom: 1.5rem;
+}
+
+.avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.admin-card:hover .avatar-placeholder {
+    transform: scale(1.1);
+}
+
+.admin-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    word-break: break-word;
+}
+
+.admin-role {
+    color: #666666;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /* Contact Section */
 .contact {
     padding: 100px 0;
